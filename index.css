@@ -6,10 +6,14 @@
     background-size: 600px;
 }
 
+.body {
+    font-family: Georgia;
+}
+
 .button1 {
     border: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 55px 5px 0px 5px;
+    margin: 10px 5px 0px 10px;
     padding: 8px 25px 8px 25px;
     text-align: center;
     font-size: 18px;
@@ -29,25 +33,33 @@
     font: bold !important;
 }
 
-#logo{
-    margin: 40px 0px 0px 40px;
+.logo{
     height: 65px;
     width: 250px;
 }
 
-h2{
-    font: large bold;
+.heading{
+    margin-top: 2em;
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 1em;
     color: darkblue;
 }
-#body {
-    font-family: Georgia;
-}
-#content {
-    margin: 70px -40px 0px 40px;
+
+.content {
+    margin: 3em;
     opacity: 0.9;
 }
 
-#foot{
-    margin: 70px 0px 0px 40px;
+.osmly{
+    color: orangered;
+}
+
+.para{
+    line-height: 1em;
+}
+
+.foot{
+    margin-top: 5em;
     opacity:0.85;
 }

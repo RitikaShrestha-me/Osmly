@@ -9,32 +9,33 @@
 
 </head>
 <body>
-    <div class="container-fluid" id="body">
-        <div class="row" id="header">
-            <div class="col-md-4">
-                <img src="logo.jpg" id="logo" />
-            </div>
-            <div class="col-md-3" align="center">
-                <input type="button" onclick=loginRedirect(); class="button1" value="Login" id="login" style=" color:black; background-color:white; font: bold;"/>
-                <input type="button" onclick=registerRedirect(); class="button1" value="Register" style="background-color: black; color: white;" />
-            </div>
-            <div class="col-md-5"></div>
-        </div>
+    <div class="container-fluid" class="body">
         <div class="row">
-            <div class="col-md-6" id="content">
-                    <h2><b>Feel organized<br /> without the effort</b></h2>
-                    Are you confused on How To Manage Your Company`s Insights?<br />
-                    <b style="color: orangered;">Osmly</b> makes exploring your data and uncovering insights a cinch!<br />
-                    Now you can Dynamically Measure, Monitor and Manage your Company Sales<br />
+            <div class="col-sm-6 content">
+                <div class="row">    
+                    <div class="col-sm-6">
+                        <img src="logo.jpg" class="logo" />
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="button" onclick=loginRedirect(); class="button1" value="Login" id="login" style=" color:black; background-color:white; font: bold;"/>
+                        <input type="button" onclick=registerRedirect(); class="button1" value="Register" style="background-color: black; color: white;" />
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="heading">Feel organized<br /> without the effort</p>
+                    <p class="para">Are you confused on How To Manage Your Company`s Insights?</p>
+                    <p class="para"><span class="osmly">Osmly</span> makes exploring your data and uncovering insights a cinch!</p>
+                    <p class="para">Now you can Dynamically Measure, Monitor and Manage your Company Sales</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 foot">
+                            For any queries,<br />
+                            <b>Contact:</b><br />
+                            9740715436, 8296746487, 7619425125, 9801791204<br />
+                    </div>
+                </div>
             </div>
-            
-        </div>
-        <div class="row" id="foot">
-            <div class="col-md-4">
-                    For any queries,<br />
-                    <b>Contact:</b><br />
-                    9740715436, 8296746487, 7619425125, 9801791204<br />
-            </div>
+            <div class="col-sm-6"></div>
         </div>
     </div>
     <script>
