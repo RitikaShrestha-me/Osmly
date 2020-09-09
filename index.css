@@ -1,13 +1,16 @@
-﻿body {
-    position: page;
-    background-image: url("front.jpeg");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 600px;
+﻿*{
+    box-sizing: border-box;
 }
-
 .body {
     font-family: Georgia;
+}
+
+.background{
+    background-image: url("front.jpeg");
+    background-position: right;
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .button1 {
@@ -47,7 +50,7 @@
 }
 
 .content {
-    margin: 3em;
+    padding: 3em;
     opacity: 0.9;
 }
 
