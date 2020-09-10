@@ -16,27 +16,24 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row header">
-            <img src="logo.jpg" height="60" width="200" class="logo" />
-            <img src="https://img.icons8.com/material/24/000000/menu--v1.png" class="menuIcon" />
-        </div>      
-        <div class="row workingFIeld">
-            <div class="col-sm-2 leftBar">
-                <div class="info">
-                    <img src="https://img.icons8.com/bubbles/100/000000/company.png" /><br />
-                    <p class="title">Company Name<br />Designation</p><br />
+        <div class="row workingField">
+            <div class="col-sm-2 navBar">
+                <div class="dashboard">
+                    <p><img src="https://img.icons8.com/nolan/50/circled.png"/>Dashboard</p>
                 </div>
-                <p class="navText">MAIN NAVIGATION</p>
                 <div class="redirect">
-                    <button class="leftMenu" onclick=homeRedirect();><img src="https://img.icons8.com/bubbles/50/000000/home.png" /><br />Home</button>
-                    <button class="leftMenu" onclick=projectRedirect();><img src="https://img.icons8.com/bubbles/50/000000/bullish.png" /><br />Project</button>
-                    <button class="leftMenu" onclick=financeRedirect();><img src="https://img.icons8.com/bubbles/50/000000/sales-performance.png"><br />Finance</button>
-                    <button class="leftMenu" onclick=mediaRedirect();><img src="https://img.icons8.com/bubbles/50/000000/statistics.png"><br />Social Media</button>
-                    <button class="leftMenu" onclick=searchRedirect();><img src="https://img.icons8.com/bubbles/50/000000/google-web-search.png"><br />Search </button>
-                    <button class="leftMenu" onclick=settingsRedirect();><img src="https://img.icons8.com/bubbles/50/000000/settings.png"><br />Settings </button>
+                    <button class="leftMenu white-text" onclick=homeRedirect();><img src="https://img.icons8.com/bubbles/50/000000/home.png" />Home</button>
+                    <button class="leftMenu white-text" onclick=projectRedirect();><img src="https://img.icons8.com/bubbles/50/000000/todo-list.png"/>Project</button>
+                    <button class="leftMenu white-text" onclick=financeRedirect();><img src="https://img.icons8.com/bubbles/50/000000/sales-performance.png">Finance</button>
+                    <button class="leftMenu white-text" onclick=mediaRedirect();><img src="https://img.icons8.com/bubbles/50/000000/crowd.png"/>Social Media</button>
+                    <button class="leftMenu white-text" onclick=searchRedirect();><img src="https://img.icons8.com/bubbles/50/000000/google-web-search.png">Search </button>
+                    <button class="leftMenu white-text" onclick=settingsRedirect();><img src="https://img.icons8.com/bubbles/50/000000/settings.png">Settings </button>
                 </div>
             </div>
             <div class="col-md-10">
+                <div class="row header">
+                    <img src="https://img.icons8.com/material/24/000000/menu--v1.png" class="menuIcon" />
+                </div>
                 <div class="row queries">
                     <div class="col-md-8">
                         <center>
@@ -54,11 +51,11 @@
         function homeRedirect() {
             window.location.href = "home.html";
         }function projectRedirect() {
-            window.location.href = "sales.html";
+            window.location.href = "project.html";
         } function financeRedirect() {
-            window.location.href = "earning.html";
+            window.location.href = "finance.html";
         } function mediaRedirect() {
-            window.location.href = "statistics.html";
+            window.location.href = "media.html";
         } function searchRedirect() {
             window.location.href = "search.html";
         } function settingsRedirect() {
