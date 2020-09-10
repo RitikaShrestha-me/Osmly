@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+.division{
+    width:250px;
+    height: 200px; 
+    background-color:aliceblue; 
+    margin: 0px 5px;
+}
+
+.content{
+    display: flex;
+}

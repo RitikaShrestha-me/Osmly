@@ -1,90 +1,79 @@
-﻿body {
-    background-color: #282a36;
+﻿*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
 }
 
 /*.workingFIeld{
     margin-top: 50px;
 }*/
 
-
-.rightBar{
-    width: 100%;
-    position: fixed;
-    align-content: end;
-    border-left: 2px solid grey;
-    margin: 80px -150px 10px 1100px;
+.white-text{
+    color: rgba(255, 255, 255, 0.993);
 }
 
-.leftBar {
-    position: fixed !important;
-    height: 100%;
-    width: 25%;
-    margin: 80px 0px 0px 0px;
-    border-right: 2px solid grey;
+.center{
+    display: flex;
+    align-items: center;
 }
-.leftBtn {
-    width: 100%;
+
+.dashboard{
+    height: 15vh;
     color: white;
-    margin: 5px 0px 5px 0px;
-    padding: 8px 0px;
-    border-color: #282a36;
-    border-style: none;
-    background-color: #282a36;
-}
-.leftBtn:hover, .rightBtn:hover {
-    background-color: #616771;
+    display: flex;
+    align-items: center;
 }
 
 .header {
-    position: fixed;
-    height: 12%;
-    width: 100%;
+    clear: both;
+    z-index: 2;
+    height: 20px;
     background-color: white;
 }
 
-.topMenu {
-    height: 80px;
-    width: 120px;
-    background-color: beige;
-    margin: 12px 5px 0px 7px;
+
+.menuIcon{
+    height: 25px; 
+    width: 20px;
+    position: absolute; 
+    right: 1em;
+    top: 1em;
 }
-.choices {
-    padding: 0px 0px 10px 20px;
-    width: 80%;
-    margin: 7% -100px 0px 215px;
-}
-.statChoices{
-    padding: 0px 0px 10px 0px;
-    width: 100%;
-    margin: 9% -300px 0px 215px;
-}
-section {
-    padding: 10px 0px 10px 20px;
-    width: 100%;
-    margin: 9% -300px 0px 215px;
-}
-/*.workingArea{
-    margin-left: 250px;
-    margin-top: 50px;
-}*/
-button:hover {
-    transform: scale(0.98);
+.menuIcon:hover{
+    transform: scale(0.9);
 }
 
-#logo {margin: 5px 5px 5px 10px;}
-#menuIcon{height: 25px; width: 20px; margin: 23px 0px 23px 20px;}
-#menuIcon:hover{transform: scale(0.9);}
-#navText {
+.title{
     color: white;
-    opacity: 0.5;
-    padding-top: 5px;
-    border-top: solid 3px white;
 }
-#title{color: white;}
-#this {background-color: #616771 !important;}
-#series_chart_div{height: 300px !important; width:600px !important; margin: 25px 0px 0px -50px;}
 
-.contents{
-    display: block;
-    background-color: white;
+.navBar {
+    height: 100vh;
+    background-color: rgb(0,36,56);
+    border-right: 2px solid rgb(0,36,56);
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    justify-content: center;
+}
+
+
+.leftMenu {
+    background-color: inherit;
+    width: 100%;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5em;
+}
+
+
+.redirect{
+    width: 100%;
 }

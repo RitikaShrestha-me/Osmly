@@ -1,0 +1,26 @@
+.query {
+    color: white !important;
+    font: bold 25px !important;
+    margin-bottom: 15px;
+}
+
+#queries {
+    margin: 100px 0px 0px 400px;
+}
+#submitQuery{
+    border-radius: 10px;
+    background-color: #616771;
+    padding: 4px 20px 4px 20px;
+    margin-top: 30px;
+}
+#submitQuery:hover{transform: scale(0.95);}
+
+.inputBox{
+    border-radius: 15px;
+    background-color: #616771;
+    padding: 2px 10px 2px 12px;
+    width: 300px;
+}
+.inputBox:hover, .inputBox:active{
+    width: 350px;
+}
